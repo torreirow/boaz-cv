@@ -1,0 +1,23 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+designation: Software Developer
+company:
+  name: Your Company
+  url: "#"
+
+summary: 'Welcome to my portfolio. This site showcases my skills, experience, and projects.'
+
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "mailto:boaz@example.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/torreirow"

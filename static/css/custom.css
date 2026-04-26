@@ -1,0 +1,16 @@
+/* Custom CSS for Boaz CV site */
+
+/* Increase navbar menu font size by 1.5pt */
+.navbar-nav .nav-link {
+    font-size: calc(1rem + 1.5pt) !important;
+}
+
+/* Also increase navbar brand font size for consistency */
+.navbar-brand {
+    font-size: calc(1.25rem + 1.5pt) !important;
+}
+
+/* Increase dropdown menu items if they exist */
+.dropdown-menu .dropdown-item {
+    font-size: calc(1rem + 1.5pt) !important;
+}

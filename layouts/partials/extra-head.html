@@ -1,0 +1,27 @@
+<!-- Prevent indexing by search engines and AI scrapers -->
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet">
+<meta name="slurp" content="noindex, nofollow, noarchive">
+<meta name="duckduckbot" content="noindex, nofollow">
+
+<!-- Email obfuscation script (anti-scraping) -->
+<script src="{{ "js/email-obfuscate.js" | relURL }}"></script>
+
+<!-- Custom CSS for menu font size and other customizations -->
+<style>
+/* Increase navbar menu font size by 1.5pt */
+.navbar-nav .nav-link {
+    font-size: calc(1rem + 1.5pt) !important;
+}
+
+/* Also increase navbar brand font size for consistency */
+.navbar-brand {
+    font-size: calc(1.25rem + 1.5pt) !important;
+}
+
+/* Increase dropdown menu items if they exist */
+.dropdown-menu .dropdown-item {
+    font-size: calc(1rem + 1.5pt) !important;
+}
+</style>

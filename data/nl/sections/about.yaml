@@ -1,0 +1,40 @@
+section:
+  name: Over Mij
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+designation: HAVO 3 Leerling
+company:
+  name: Christelijk College Groevenbeek
+  url: "https://www.groevenbeek.nl"
+
+summary: |
+  Hoi! Ik ben Boaz, 14 jaar en ik woon in Ermelo. Ik zit momenteel in de derde klas van de HAVO op het Christelijk College Groevenbeek, waar ik het profiel Natuur & Gezondheid heb gekozen. Dit profiel past goed bij mijn interesse in wetenschap en gezondheid.
+
+  Ik volg het onderwijs via Groevenbeek NEXT - een onderwijsvorm waarbij ik veel vrijheid krijg om te leren op mijn eigen manier. Ik werk aan de kernvakken en kan zelf onderwerpen kiezen om te onderzoeken. Dit past perfect bij mijn nieuwsgierige en onderzoekende karakter!
+  
+  Naast school ben ik heel actief met sport. Ik speel korfbal bij CSV Dindoa in het J3 team, en ons team staat op dit moment op de eerste plaats in de competitie! Daarnaast speel ik ook graag basketbal met vrienden.
+  
+  Om wat te verdienen werk ik bij Snackbar Pinokkio als afwasser en bezorger. Het is mijn eerste baantje en ik leer er veel over klanten helpen en samenwerken.
+  
+  In mijn vrije tijd vind ik het leuk om met Arduino te experimenteren en elektronische projectjes te maken. Ook game ik graag en ben ik gefascineerd door sterrenkunde.
+  
+  Later zou ik graag sportleerkracht willen worden, want ik vind het geweldig om te sporten en anderen daarbij te helpen. Of misschien word ik wel sterrenkundige - ik ben gek op sterrenkijken en wil graag meer leren over het heelal!
+
+socialLinks:
+  - name: Snapchat
+    icon: "fab fa-snapchat"
+    url: "https://snapchat.com/add/boaz_vdt"
+
+  - name: GitHub
+    icon: "fab fa-github"
+    url: "https://github.com/torreirow/boaz-cv"
+
+resourceLinks:
+  - title: "CV Dindoa"
+    url: "https://dindoa.nl"
+  - title: "Groevenbeek"
+    url: "https://www.groevenbeek.nl"

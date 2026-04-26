@@ -1,0 +1,10 @@
+copyright: © 2025 Boaz
+
+description: Portfolio and CV of Boaz
+
+openGraph:
+  title: Boaz CV
+  type: website
+  description: Portfolio and CV of Boaz
+  image: images/author/profile.png
+  url: https://torreirow.github.io/boaz-cv

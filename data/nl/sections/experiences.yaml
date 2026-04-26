@@ -1,0 +1,34 @@
+section:
+  name: Ervaring
+  id: experiences
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+experiences:
+  - company:
+      name: CSV Dindoa
+      url: "https://dindoa.nl"
+      location: Sportpark de Zanderij, Ermelo
+      overview: Korfbalvereniging in Ermelo
+    positions:
+      - designation: Speler Team J3
+        start: September 2023
+        responsibilities:
+          - Teamlid van het J3 (Junioren 3) korfbalteam
+          - Wekelijkse trainingen en competitiewedstrijden
+          - "Seizoen 2024-2025: Koploper in de competitie met 2 wedstrijden gespeeld, 2 gewonnen (2-0), 4 punten, 22-9 doelpunten, +13 doelsaldo"
+          - Leer teamwork, doorzettingsvermogen en sportiviteit
+
+  - company:
+      name: Snackbar Pinokkio
+      location: Ermelo
+      overview: Lokale snackbar
+    positions:
+      - designation: Afwasser & Bezorger
+        start: 2024
+        responsibilities:
+          - Afwassen en schoonmaken van de keuken
+          - Bezorgen van bestellingen bij klanten
+          - Klanten helpen en goede service bieden
+          - Mijn eerste bijbaan - leer over verantwoordelijkheid en samenwerken

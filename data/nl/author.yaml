@@ -1,0 +1,21 @@
+name: Boaz van der Toorren
+nickname: Boaz
+greeting: Hoi, ik ben
+image: images/author/profile-real.png      # Real photo (400KB)
+#image: images/author/profile-cartoon.png  # Cartoon version (1.3MB)
+
+contactInfo:
+  # Email is obfuscated in HTML using base64 encoding (see static/js/email-obfuscate.js)
+  # To display obfuscated email in templates, use: <span data-email-obf="Ym9hekB0b29ycmVuLm5ldA==">Contact</span>
+  # Plain email (for internal use only - not displayed directly on site):
+  email: boaz@toorren.net
+  github: torreirow
+  snapchat:
+    name: Snapchat
+    url: https://snapchat.com/add/boaz_vdt
+    icon: fab fa-snapchat
+
+summary:
+  - HAVO 3 Leerling
+  - Korfballer bij CSV Dindoa
+  - Tech Enthousiast

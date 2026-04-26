@@ -1,0 +1,56 @@
+schema: spec-driven
+
+# Project context
+context: |
+  **Tech Stack:**
+  - Hugo v0.160.1 (extended, via local binary)
+  - Toha theme v4.15.0 (via Hugo modules)
+  - Node.js 20 (frontend deps: Bootstrap, Font Awesome, flag-icons)
+  - Nix flake for dev environment
+
+  **Content Architecture:**
+  - Data-driven: All content in data/en/ YAML files (NOT content/ markdown)
+  - Sections defined in data/en/sections/<name>.yaml
+  - 12 available section types: about, skills, experiences, education, projects, achievements, etc.
+  - See specs/toha-sections for complete schemas
+
+  **Image Conventions:**
+  - Static images: static/images/<category>/<file>
+  - Referenced in YAML as: /images/<category>/<file>
+  - Organized by section type (skills/, projects/, author/, etc.)
+
+  **Section Structure:**
+  - All sections require: section.name, section.id, section.enable, section.weight
+  - Weight determines display order (lower = higher on page)
+  - Filtering sections (skills, projects) need buttons[] and matching tags[]
+
+  **Development:**
+  - Run: nix develop && hugo server
+  - Build: hugo --minify
+  - Dependencies: npm install (for theme assets)
+
+  **Constraints:**
+  - NO content/*.md files (except for blog posts if enabled)
+  - Theme templates in ~/.cache/hugo_cache/modules/... (DO NOT edit directly)
+  - Override templates by creating layouts/ with same structure
+  - Multi-language ready (currently en, can add nl/*)
+
+# Per-artifact rules
+rules:
+  proposal:
+    - Specify which YAML files in data/en/ will be created/modified
+    - Identify section weight in relation to existing sections
+    - List required images and their paths in static/images/
+    - Reference specs/site-architecture and specs/toha-sections for context
+
+  design:
+    - Reference specific Toha section templates being used
+    - Document YAML schema for new sections (or reference specs/toha-sections)
+    - Clarify image asset organization strategy
+    - Consider weight/ordering in section sequence
+
+  tasks:
+    - Separate image preparation from YAML configuration tasks
+    - Keep YAML editing atomic (one section per task when possible)
+    - Include verification step with hugo server after each section addition
+    - Check for YAML syntax errors before committing

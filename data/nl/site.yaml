@@ -1,0 +1,10 @@
+copyright: © 2025 Boaz van der Toorren
+
+description: Portfolio website van Boaz van der Toorren - HAVO leerling, korfballer bij CSV Dindoa, en tech-enthousiast uit Ermelo
+
+openGraph:
+  title: Boaz van der Toorren - Portfolio
+  type: website
+  description: Portfolio van Boaz - 14 jaar, HAVO 3 leerling met interesse in sport, techniek en wetenschap
+  image: /images/author/profile.svg
+  url: https://torreirow.github.io/boaz-cv

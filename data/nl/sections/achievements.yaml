@@ -1,0 +1,31 @@
+section:
+  name: Prestaties
+  id: achievements
+  enable: true
+  weight: 6
+  showOnNavbar: true
+
+achievements:
+  - title: Korfbal Koploper Seizoen 2024-2025
+    image: images/sections/achievements/korfbal-koploper.png
+    summary: |
+      Met mijn team J3 bij CSV Dindoa staan we op de eerste plaats in de competitie! 
+      In seizoen 2024-2025 hebben we tot nu toe 2 wedstrijden gespeeld en beide gewonnen (2-0). 
+      We hebben 4 punten, 22-9 doelpunten gescoord, en een doelsaldo van +13. 
+      Dit is het resultaat van hard trainen en goed samenwerken als team!
+
+  - title: Profielkeuze Natuur & Gezondheid
+    image: images/sections/achievements/profiel-ng.png
+    summary: |
+      In HAVO 3 heb ik bewust gekozen voor het profiel Natuur & Gezondheid (N&G) in combinatie met BSM. 
+      Dit profiel past perfect bij mijn interesse in wetenschap, gezondheid en sterrenkunde. 
+      Met vakken als biologie, scheikunde en natuurkunde leer ik hoe de wereld en het heelal werken. 
+      Deze keuze brengt me dichter bij mijn toekomstdroom om sportleerkracht of sterrenkundige te worden!
+
+  - title: Bijbaantje
+    image: images/sections/achievements/werk.png
+    summary: |
+      Mijn eerste bijbaan bij Snackbar Pinokkio is een belangrijke stap! 
+      Hier leer ik verantwoordelijkheid nemen, goed met klanten omgaan en deel uitmaken van een team. 
+      Als afwasser en bezorger doe ik mijn werk nauwkeurig en zorg ik dat alles netjes en op tijd gebeurt. 
+      Het voelt goed om mijn eigen geld te verdienen en praktische ervaring op te doen!

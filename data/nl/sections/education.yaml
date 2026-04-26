@@ -1,0 +1,40 @@
+section:
+  name: Opleiding
+  id: education
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+degrees:
+  - name: HAVO (Groevenbeek NEXT)
+    icon: fa-school
+    timeframe: 2023-2028
+    institution:
+      name: Christelijk College Groevenbeek
+      url: "https://www.groevenbeek.nl"
+      location: Ermelo
+    grade:
+      scale: Klas
+      achieved: HAVO 3
+      outOf: "Profiel: N&G + BSM"
+    publications:
+      - title: "Groevenbeek NEXT: Leren op mijn manier"
+        url: "https://www.groevenbeek.nl/next"
+    takenCourses:
+      collapseAfter: 5
+      showGrades: false
+      courses:
+        - name: Nederlands
+        - name: Engels
+        - name: Wiskunde
+        - name: Biologie
+        - name: Scheikunde
+        - name: Natuurkunde
+        - name: Maatschappijleer
+        - name: Lichamelijke Opvoeding
+    extracurricularActivities:
+      - "Groevenbeek NEXT: Een onderwijsvorm waar ik veel vrijheid krijg om te leren op mijn eigen manier. Ik werk aan kernvakken en kan zelf onderwerpen kiezen om te onderzoeken."
+      - Korfbal bij CSV Dindoa - J3 team
+      - Bijbaan bij Snackbar Pinokkio als afwasser en bezorger
+      - Arduino hobby projecten
+      - Basketballen met vrienden

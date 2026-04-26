@@ -1,0 +1,12 @@
+name: "Boaz"
+nickname: "Boaz"
+greeting: "Hi, I am"
+image: "images/author/profile.png"
+
+contactInfo:
+  email: "boaz@example.com"
+  github: torreirow
+
+summary:
+  - Software Developer
+  - Tech Enthusiast
