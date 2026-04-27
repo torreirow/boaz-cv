@@ -1,0 +1,5 @@
+# Custom Dutch translations for Boaz CV
+# Overrides theme defaults from _vendor/github.com/hugo-toha/toha/v4/i18n/nl.toml
+
+[taken_courses]
+other = "Vakkenpakket"

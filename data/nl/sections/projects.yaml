@@ -17,19 +17,10 @@ buttons:
     filter: "hobby"
 
 projects:
-  - name: Arduino Experimenteren
-    logo: /images/sections/projects/arduino.svg
-    role: Maker
-    timeline: "Lopend"
-    summary: |
-      Ik vind het leuk om met Arduino te experimenteren en verschillende elektronische projectjes te maken. 
-      Hierbij leer ik over programmeren, elektronica en hoe dingen werken.
-    tags: ["tech", "hobby"]
-
   - name: Persoonlijke Website
     logo: /images/sections/projects/website.svg
     role: Eigenaar
-    timeline: "2025"
+    timeline: "2026"
     repo: https://github.com/torreirow/boaz-cv
     summary: |
       Deze portfolio website is gemaakt met Hugo, een moderne static site generator. 
@@ -43,4 +34,15 @@ projects:
       In HAVO 4 of 5 ga ik een profielwerkstuk maken. Dit is een groot onderzoeksproject 
       over een onderwerp dat past bij mijn profiel Natuur & Gezondheid. 
       Het onderwerp weet ik nog niet, maar ik denk aan iets met sport of sterrenkunde!
-    tags: ["school"]
+    tags: ["school"]  
+
+  - name: Arduino Experimenteren
+    logo: /images/sections/projects/arduino.svg
+    role: Maker
+    timeline: "Lopend"
+    summary: |
+      Ik vind het leuk om met Arduino te experimenteren en verschillende elektronische projectjes te maken. 
+      Hierbij leer ik over programmeren, elektronica en hoe dingen werken.
+    tags: ["tech", "hobby"]
+
+

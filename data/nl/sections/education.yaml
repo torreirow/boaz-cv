@@ -8,7 +8,7 @@ section:
 degrees:
   - name: HAVO (Groevenbeek NEXT)
     icon: fa-school
-    timeframe: 2023-2028
+    timeframe: 2023-heden
     institution:
       name: Christelijk College Groevenbeek
       url: "https://www.groevenbeek.nl"
@@ -33,8 +33,8 @@ degrees:
         - name: Maatschappijleer
         - name: Lichamelijke Opvoeding
     extracurricularActivities:
-      - "Groevenbeek NEXT: Een onderwijsvorm waar ik veel vrijheid krijg om te leren op mijn eigen manier. Ik werk aan kernvakken en kan zelf onderwerpen kiezen om te onderzoeken."
-      - Korfbal bij CSV Dindoa - J3 team
-      - Bijbaan bij Snackbar Pinokkio als afwasser en bezorger
-      - Arduino hobby projecten
-      - Basketballen met vrienden
+      - Korfbal bij Dindoa
+      - Bijbaan bij als afwasser en bezorger bij een snackbar
+      - Gamen
+      - Arduino 
+      - Basketballen

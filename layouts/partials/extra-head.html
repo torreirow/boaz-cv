@@ -24,4 +24,71 @@
 .dropdown-menu .dropdown-item {
     font-size: calc(1rem + 1.5pt) !important;
 }
+
+/* Make project cards equal height - dynamic based on tallest card */
+#project-card-holder-projects .filtr-item > .card > .card {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+#project-card-holder-projects .card-header {
+    flex-shrink: 0 !important;
+}
+
+#project-card-holder-projects .card-body {
+    display: flex !important;
+    flex-direction: column !important;
+    flex: 1 !important;
+}
+
+#project-card-holder-projects .project-card-footer {
+    margin-top: auto !important;
+    flex-shrink: 0 !important;
+}
+</style>
+
+<!-- Equalize project card heights based on tallest card -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    function equalizeCardHeights() {
+        const cards = document.querySelectorAll('#project-card-holder-projects .filtr-item > .card > .card');
+        if (cards.length === 0) return;
+
+        // Reset heights first
+        cards.forEach(card => card.style.height = 'auto');
+
+        // Find the tallest card
+        let maxHeight = 0;
+        cards.forEach(card => {
+            const height = card.offsetHeight;
+            if (height > maxHeight) maxHeight = height;
+        });
+
+        // Apply max height to all cards
+        cards.forEach(card => {
+            card.style.height = maxHeight + 'px';
+        });
+    }
+
+    // Run on load
+    equalizeCardHeights();
+
+    // Re-run after filterizr animations (if they exist)
+    setTimeout(equalizeCardHeights, 100);
+    setTimeout(equalizeCardHeights, 500);
+
+    // Re-run on window resize
+    window.addEventListener('resize', equalizeCardHeights);
+
+    // Re-run when filter buttons are clicked
+    const filterButtons = document.querySelectorAll('.project-filtr-control');
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            setTimeout(equalizeCardHeights, 600);
+        });
+    });
+});
+</script>
+
+<style>
 </style>
