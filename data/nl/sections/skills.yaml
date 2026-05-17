@@ -40,7 +40,7 @@ skills:
 
   - name: Arduino & Techniek
     logo: /images/sections/skills/arduino.svg
-    summary: Ik experimenteer graag met Arduino en maak verschillende elektronische projectjes.
+    summary: Af en toe doe ik een projectje met Arduino - gewoon voor de lol om te kijken wat er mogelijk is.
     url: "https://arduino.cc"
     tags: ["tech"]
 
