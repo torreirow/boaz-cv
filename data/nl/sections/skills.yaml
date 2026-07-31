@@ -19,31 +19,31 @@ buttons:
 skills:
   - name: Korfbal
     logo: /images/sections/skills/korfbal.svg
-    summary: Ik speel korfbal bij CSV Dindoa in het J3 team. We staan momenteel op de eerste plaats!
+    summary: Ik speel korfbal bij Dindoa in het J3 team. We staan momenteel op de eerste plaats!
     url: "https://dindoa.nl"
     tags: ["sport"]
 
   - name: Basketball
     logo: /images/sections/skills/basketball.svg
-    summary: Naast korfbal vind ik het ook leuk om te basketballen met vrienden.
+    summary: Naast korfbal basketbal ik ook soms, gewoon voor de lol met vrienden.
     tags: ["sport"]
 
   - name: Teamwork
     logo: /images/sections/skills/team.svg
-    summary: Door teamsporten en mijn werk leer ik goed samenwerken met anderen.
+    summary: Door korfbal en mijn bijbaan leer ik goed samenwerken met anderen.
     tags: ["sport", "werk"]
 
   - name: Klantenservice
     logo: /images/sections/skills/service.svg
-    summary: Bij de snackbar help ik klanten en zorg ik dat alles netjes en snel gaat.
+    summary: Bij de snackbar help ik klanten en doe ik gewoon mijn best.
     tags: ["werk"]
 
   - name: Arduino & Techniek
     logo: /images/sections/skills/arduino.svg
-    summary: Af en toe doe ik een projectje met Arduino - gewoon voor de lol om te kijken wat er mogelijk is.
+    summary: Soms doe ik wat met Arduino - gewoon voor de lol om te kijken wat er mogelijk is.
     url: "https://arduino.cc"
     tags: ["tech"]
 
   - name: Gaming
     logo: /images/sections/skills/gaming.svg
-    summary: In mijn vrije tijd game ik graag en probeer ik steeds beter te worden.
+    summary: In mijn vrije tijd game ik veel en probeer ik steeds beter te worden.
