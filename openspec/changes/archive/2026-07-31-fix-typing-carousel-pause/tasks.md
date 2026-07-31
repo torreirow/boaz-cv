@@ -9,4 +9,4 @@
 
 ## 3. Afronden
 
-- [ ] 3.1 Commit en push het nieuwe bestand
+- [x] 3.1 Commit en push het nieuwe bestand
