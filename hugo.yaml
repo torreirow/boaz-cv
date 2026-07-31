@@ -63,7 +63,7 @@ sitemap:
 # Site parameters
 params:
   # Background image of the landing page
-  # background: /images/site/background.jpg
+  background: /images/site/background.jpg
 
   # GitHub repo URL
   gitRepo: https://github.com/torreirow/boaz-cv
