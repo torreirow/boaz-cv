@@ -19,7 +19,7 @@ buttons:
 skills:
   - name: Korfbal
     logo: /images/sections/skills/korfbal.svg
-    summary: Ik speel korfbal bij Dindoa in het J3 team. We staan momenteel op de eerste plaats!
+    summary: Ik speel korfbal bij Dindoa in het nieuwe J3 team. Na de eerste helft van het veldseizoen staan we 3e.
     url: "https://dindoa.nl"
     tags: ["sport"]
 
@@ -35,7 +35,7 @@ skills:
 
   - name: Klantenservice
     logo: /images/sections/skills/service.svg
-    summary: Bij de snackbar help ik klanten en doe ik gewoon mijn best.
+    summary: Bij Albert Heijn help ik klanten als ze iets zoeken en zorg ik dat de schappen er netjes uitzien.
     tags: ["werk"]
 
   - name: Arduino & Techniek
